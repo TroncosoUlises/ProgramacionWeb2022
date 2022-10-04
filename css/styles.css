@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+
+}
+
+main {
+    width: 100%;
+    height: auto;
+    margin: 2em;
+    padding: 2em;
+}
+
+.container {
+    width: 100%;
+}
+
+.iconos {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    text-decoration: none;
+    color: #71767b;
+
+}
+
+#Contacto,
+#Cotizacion,
+#Servicios,
+#Plan,
+#Asistencia {
+    display: inline-block;
+    color: #71767b;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 25px;
+    border: 5px solid #71767b;
+    border-radius: 50%;
+    font-size: 8em;
+    margin: 15px;
+
+}
+
+#Contacto:hover,
+#Cotizacion:hover,
+#Servicios:hover,
+#Plan:hover,
+#Asistencia:hover {
+    color: #EFEFEF;
+    background-color: #71767b;
+}
+
+a,
+h4 {
+    text-decoration: none;
+    color: #71767b;
+
+}
+
+h4:hover {
+    color: #EFEFEF;
+}
+
+/*------footer-----*/
+
+footer {
+    width: 100%;
+    height: 52em;
+    margin-bottom: 0;
+    margin: 2em;
+    padding-top: 2em;
+    background-color: #d6d6d6;
+
+
+}
+
+.footer {
+    height: 100%;
+    display: flex;
+    margin-top: 1em;
+
+    padding: 1em;
+
+}
+
+.SubFooter {
+    width: 19%;
+    height: 100%;
+    margin-bottom: 0;
+    margin: 0.5em;
+    padding: 2em;
+    color: #71767b;
+}
+
+.SubFooterTitulo {
+    font-size: 2.5em;
+}
+
+.SubFooterUp,
+.SubFooterUp2 {
+    height: 60%;
+}
+
+.SubFooterDown,
+.SubFooterDown2 {
+    height: 35%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+.SubFooterA {
+    font-size: x-large;
+    font-weight: bold;
+    color: #71767b;
+    margin: 1em;
+    margin-left: 0;
+}
+
+li:hover,
+.SubFooterA:hover,
+#MotoIco:hover,
+img:hover {
+    color: #EFEFEF
+}
+
+#MotoIco:hover {
+    color: #EFEFEF;
+}
+
+#MotoIco,
+#AutoIco,
+#SUVIco,
+#CamionetaIco,
+#UtilitariosIco,
+#CamionesIco {
+    margin-bottom: 0.8em;
+    margin-left: 0.5em;
+    color: #71767b;
+    transition: 350ms;
+}
+
+#Enlace:hover,
+#MotoIco:hover,
+#AutoIco:hover,
+#SUVIco:hover,
+#CamionetaIco:hover,
+#UtilitariosIco:hover,
+#CamionesIco:hover {
+    transform: scale(1.40);
+    color: #EFEFEF;
+}
+
+/*-----No puedo generar el hover en los iconos------*/
+
+#Enlace {
+    margin: 0.5em;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.Redes {
+    font-size: 2.6em;
+    transition: 350ms;
+}
+
+.Redes:hover {
+    transform: scale(1.5);
+}
+
+/*-------*/
+.RedesIco,
+#Facebook,
+#Twitter,
+#Instagram,
+#Youtube,
+#Whatsapp {
+    width: 17%;
+    transition: 200ms;
+}
+
+.RedesIco:hover,
+#Facebook:hover,
+#Twitter:hover,
+#Instagram:hover,
+#Youtube:hover,
+#Whatsapp:hover {
+    transform: scale(2);
+}
+
+#Facebook,
+#Twitter,
+#Instagram,
+#Youtube,
+#Whatsapp {
+    color: #71767b;
+}
+
+#Facebook:hover {
+    color: #3b5998;
+}
+
+#Twitter:hover {
+    color: #00acee;
+}
+
+#Instagram:hover {
+    color: #eb56a8;
+}
+
+#Youtube:hover {
+    color: #c4302b;
+}
+
+#Whatsapp:hover {
+    color: #00bb2d;
+}
+
+/*----------*/
+/*
+.Boton {
+    width: 80%;
+    transition: 1s;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+button {
+    height: auto;
+    margin: 2em;
+    padding: 0.5em;
+    display: block;
+    text-align: center;
+    background-color: 0;
+    color: #EFEFEF;
+    background-color: #71767b;
+    border-radius: 1.3em;
+
+}
+
+.Boton:hover {
+    transform: translateX(100%);
+}
+
+.BotonA {
+    width: 100%;
+
+
+}
+
+.Rueda {
+    transition: 1s;
+}
+
+.Rueda:hover {
+    transform: rotate(360deg);
+}*/
+/*----------*/
