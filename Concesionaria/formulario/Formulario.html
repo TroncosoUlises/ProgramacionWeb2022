@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstilosFormulario.css">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="../logoico2.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+
+
+</head>
+
+<body class="">
+    <header>
+
+        <div class="barra">
+            <div class="ContenedorLogo">
+                <img id="Logo" src="../logo.jpg" alt="">
+
+            </div>
+            <div>
+                <h2 id="Zulu">Zulu</h2>
+            </div>
+        </div>
+
+    </header>
+
+    <aside>
+        <div>
+            <div class="Texto">
+                <p> Buenas tardes, desde ZULÚ</p>
+                <p>queremos agradecerte por tu tiempo
+                    para completar este formulario</p>
+                <p>Nuestro objetivo es poder dar mas y mejor servicio a
+                    nuestros clientes</p>
+            </div>
+
+        </div>
+    </aside>
+
+    <main>
+        <form action="">
+            <div class="InfoPersonal">
+                <fieldset>
+                    <legend class="Encabezado">Informacion Personal</legend>
+                    <div class="Contenedor"><input type="text" name="Nombre" placeholder="Nombre/s"></div>
+                    <div class="Contenedor"><input type="text" name="Apellido" placeholder="Apellido"></div>
+
+
+                    <div class="Contenedor"><select id="localidad" name="localidad">
+                            <option value="Tandil">Seleccione su localidad</option>
+                            <option value="Tandil">Tandil</option>
+                            <option value="Ayacucho">Ayacucho</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Balcarce">Balcarce</option>
+                            <option value="Juarez">Benito Juarez</option>
+                            <option value="Chillar">Chillar</option>
+                            <option value="Gardey">Gardey</option>
+                            <option value="Napaleofu">Napaleofu</option>
+                            <option value="Olavarria">Olavarria</option>
+                            <option value="Rauch">Rauch</option>
+                            <option value="Vela">Vela</option>
+                            <option value="Otra">Otra...</option>
+                        </select>
+                    </div>
+                    <div class="Contenedor"><input type="text" name="Direccion" placeholder="Direccion"></div>
+                    <div class="Contenedor"><input type="" name="Telefono" placeholder="Telefono"></div>
+                    <div class="Contenedor"><input type="email" name="E-mail" placeholder="Corro electronico"></div>
+                </fieldset>
+            </div>
+
+
+
+            <div class="InfoVehiculo">
+                <fieldset>
+                    <legend class="Encabezado">Informacion del vehiculo</legend>
+                    <div class="Contenedor">
+                        <label for="cars">Tipo de vehiculo:</label>
+                        <select id="Marca" name="Marca">
+                            <option value="moto">Moto</option>
+                            <option value="Auto">Auto</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Camioneta">Camioneta</option>
+                            <option value="Utilitario">Utilitario</option>
+                            <option value="Camion">Camion</option>
+                        </select>
+                    </div>
+
+                    <div class="Contenedor"><input type="number" id="Modelo" name="" value="" placeholder="Modelo">
+                    </div>
+                    <div class="Contenedor"><input type="text" name="patente" placeholder="Patente"></div>
+                    <div class="Contenedor">
+                        <label for="cars">Compro el vehiculo:</label>
+                        <label for="Nuevo">Nuevo</label>
+                        <input class="Circulo" type="radio" id="Nuevo" name="Nuevo" value="Nuevo">
+                        <label for="Usado">Usado</label>
+                        <input class="Circulo" type="radio" id="Usado" name="Nuevo" value="Usado">
+                    </div>
+                    <div class="Contenedor"><label for="FechaCompra">Fecha de compra:</label>
+                        <input type="date" id="FechaCompra" name="FechaCompra">
+                    </div>
+
+                    <div class="Contenedor">
+                        <label for="cars">Tuvo algun tipo de inconveniente vehiculo:</label>
+                        <label for="Nuevo">Si</label>
+                        <input class="Circulo" type="radio" id="Nuevo" name="Nuevo" value="Nuevo">
+                        <label for="Usado">No</label>
+                        <input class="Circulo" type="radio" id="Usado" name="Nuevo" value="Usado">
+                    </div>
+                    <div class="Contenedor">
+                        <div class="ContTextVehi">
+                            <textarea name="" id="textareaVehiculo" cols="" rows="" placeholder="Describa brevemente que tipo de inconveniente, falla o rutora del vehiculo tuvo"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+
+            </div>
+
+
+            <div class="Encuesta">
+                <fieldset>
+                    <legend class="Encabezado">Breve encuesta</legend>
+                    <div>
+                        <h3>Estas preguntas tiene como objetivo poder brindar un mejor servicio</h3>
+                    </div>
+
+                    <div>
+                        <p>(Donde 5 es muy conforme y 1 para nada conforme)</p>
+                    </div>
+
+                    <div>
+                        <div class="Contenedor">
+                            <legend>Que tan conforme esta con nuestro producto
+                            </legend>
+                        </div>
+                        <div class="Contenedor">
+                            <label for="Nuevo">5</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo" value="Nuevo">
+                            <label for="Usado">4</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo" value="Usado">
+                            <label for="Nuevo">3</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo" value="Nuevo">
+                            <label for="Usado">2</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo" value="Usado">
+                            <label for="Usado">1</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo" value="Usado">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="Contenedor">
+                            <legend>Que tan conforme esta con nuestra atencion de venta
+                            </legend>
+                        </div>
+                        <div class="Contenedor">
+                            <label for="Nuevo">5</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo1" value="Nuevo">
+                            <label for="Usado">4</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo1" value="Usado">
+                            <label for="Nuevo">3</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo1" value="Nuevo">
+                            <label for="Usado">2</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo1" value="Usado">
+                            <label for="Usado">1</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo1" value="Usado">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="Contenedor">
+                            <legend>Que tan conforme esta con nuestra atencion de Post venta </legend>
+                        </div>
+                        <div class="Contenedor">
+                            <label for="Nuevo">5</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo2" value="Nuevo">
+                            <label for="Usado">4</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo2" value="Usado">
+                            <label for="Nuevo">3</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo2" value="Nuevo">
+                            <label for="Usado">2</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo2" value="Usado">
+                            <label for="Usado">1</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo2" value="Usado">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="Contenedor">
+                            <legend>Que tan conforme esta con nuestro servcio de atencion al cliente </legend>
+                        </div>
+                        <div class="Contenedor">
+                            <label for="Nuevo">5</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo3" value="Nuevo">
+                            <label for="Usado">4</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo3" value="Usado">
+                            <label for="Nuevo">3</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo3" value="Nuevo">
+                            <label for="Usado">2</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo3" value="Usado">
+                            <label for="Usado">1</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo3" value="Usado">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="Contenedor">
+                            <legend>Que tan conforme esta con nuestra atencion en el area servis/taller</legend>
+                        </div>
+                        <div class="Contenedor">
+                            <label for="Nuevo">5</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo4" value="Nuevo">
+                            <label for="Usado">4</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo4" value="Usado">
+                            <label for="Nuevo">3</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo4" value="Nuevo">
+                            <label for="Usado">2</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo4" value="Usado">
+                            <label for="Usado">1</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo4" value="Usado">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="Contenedor">
+                            <legend>Que tan conforme esta con nuestra atencion en el area repuestos</legend>
+                        </div>
+                        <div class="Contenedor">
+                            <label for="Nuevo">5</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo5" value="Nuevo">
+                            <label for="Usado">4</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo5" value="Usado">
+                            <label for="Nuevo">3</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo5" value="Nuevo">
+                            <label for="Usado">2</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo5" value="Usado">
+                            <label for="Usado">1</label>
+                            <input class="Circulo" type="radio" id="" name="Nuevo5" value="Usado">
+
+                        </div>
+                </fieldset>
+            </div>
+
+            <div class="TuOpinion container">
+                <fieldset>
+                    <legend class="Encabezado">Tu opinion nos interesa</legend>
+                    <div class="Comentario container">
+                        <textarea name="" id="opinion" cols="60" rows="10"
+                            placeholder="Dejanos tu comentario..."></textarea>
+                    </div>
+
+                </fieldset>
+            </div>
+
+            <div class="ContenedorBoton">
+                <input class="Boton" type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </main>
+
+    <script src="Formulario.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+</body>
+
+</html>

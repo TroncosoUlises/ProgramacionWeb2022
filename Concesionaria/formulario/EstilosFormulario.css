@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-size: 16px;
+
+}
+
+.barra {
+    width: auto;
+    height: 40px;
+    background-color: black;
+    display: flex;
+}
+
+#Logo {
+    display: block;
+    height: 100%;
+}
+
+
+
+h2,
+#Zulu {
+    color: #EEEEEE;
+    margin-top: 7px;
+}
+
+
+.Texto {
+
+
+    margin: 3em;
+    font-size: x-large;
+    text-align: center;
+    line-height: 0.6em;
+}
+
+
+
+textarea {
+    border-radius: 5px;
+}
+
+#opinion {
+    width: 100%;
+    height: 15em;
+   
+    text-align: center;
+    font-size: x-large;
+}
+
+#textareaVehiculo,
+#opinion {
+    resize: none;
+}
+
+#textareaVehiculo {
+    width: 50em;
+    height: 8em;
+    text-align: center;
+    font-size: x-large;
+    margin: 2em 0em;
+}
+
+.ContTextVehi {
+    text-align: center;
+}
+
+legend {
+    font-size: larger;
+    font-weight: 900;
+    margin-left: 1.2em;
+    color: #71767b;
+}
+
+.Encabezado {
+    text-align: center;
+    color: #71767b;
+
+}
+
+fieldset {
+    border: 3px solid #71767b;
+    border-radius: 1em;
+    background-color: #d6d6d6;
+
+}
+
+
+.InfoPersonal,
+.InfoVehiculo,
+.Encuesta
+ {
+    margin: 3em;
+
+}
+
+.Comentario {
+    text-align: center;
+}
+
+input,
+select,
+label,
+h3 {
+    margin: 1em;
+}
+
+input,
+textarea {
+    border-top-width: 0px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    box-shadow: 2px 2px 8px #71767b
+}
+
+.Circulo {
+    width: 1em;
+    height: 1em;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    box-shadow: 0px 0px 0px #71767b
+}
+
+h3,
+p {
+    color: #71767b;
+}
+
+p {
+    margin-left: 1em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+}
+
+input,
+select,
+label {
+    width: 30em;
+    height: 2.5em;
+    border-radius: 5px;
+    color: #71767b;
+}
+
+input,
+label {
+    padding-left: 0.8em;
+}
+
+.ContenedorBoton {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.Boton {
+    width: 30em;
+    height: 3em;
+    padding: 0;
+    color: #d6d6d6;
+    background-color: #71767b;
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px #71767b;
+    border: #71767b;
+    font-size: large;
+
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    body {
+            font-size: 10px;
+        }
+}
+
+
+@media (max-width: 991.98px) {
+    body {
+        font-size: 14px;
+    }
+
+}
